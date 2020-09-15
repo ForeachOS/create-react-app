@@ -17,6 +17,7 @@
     "@foreachbe/eslint-config-react-app": "6.0.0"
   },
   "changesets": [
+    "five-rockets-cheat",
     "great-dolphins-enjoy",
     "quick-rabbits-wash",
     "rotten-guests-deliver",
