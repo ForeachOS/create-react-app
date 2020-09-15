@@ -1,5 +1,11 @@
 # @foreachbe/react-scripts
 
+## 6.2.0-beta.5
+
+### Patch Changes
+
+- 255a33f6: Update terser plugin and fix default config option for multiple entry points
+
 ## 6.2.0-beta.4
 
 ### Patch Changes
