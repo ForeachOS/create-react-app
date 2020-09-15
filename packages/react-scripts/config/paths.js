@@ -65,8 +65,8 @@ function getAppPages() {
 
   if (appPages.length === 0) {
     appPages.push({
-      name: 'index',
-      title: 'index',
+      name: 'main',
+      title: 'main',
       appHtml: 'public/index.html',
       appIndexJs: 'src/index',
     });
