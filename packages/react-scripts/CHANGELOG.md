@@ -1,5 +1,11 @@
 # @foreachbe/react-scripts
 
+## 6.2.0-beta.4
+
+### Patch Changes
+
+- Fix webpack config error
+
 ## 6.2.0-beta.3
 
 ### Patch Changes
