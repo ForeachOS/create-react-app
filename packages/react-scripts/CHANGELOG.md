@@ -1,5 +1,24 @@
 # @foreachbe/react-scripts
 
+## 6.2.0
+
+### Minor Changes
+
+- 61dab867: Genesis
+
+### Patch Changes
+
+- 255a33f6: Update terser plugin and fix default config option for multiple entry points
+- 8023cbe7: reuse custom eslint config
+- dfa10601: Fix NPM publish
+- a48324f5: Fix webpack config error
+- afef45e2: Fix build error in react-scripts
+- Updated dependencies [8023cbe7]
+- Updated dependencies [61dab867]
+  - @foreachbe/babel-preset-react-app@5.1.0
+  - @foreachbe/eslint-config-react-app@6.0.1
+  - @foreachbe/stylelint-config-react-app@4.1.0
+
 ## 6.2.0-beta.5
 
 ### Patch Changes
