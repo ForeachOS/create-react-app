@@ -163,23 +163,6 @@ module.exports = function (webpackEnv) {
     'main',
   ];
 
-  const mainFields =
-    isEnvDevelopment && workspacesConfig.development
-      ? workspacesMainFields
-      : isEnvProduction && workspacesConfig.production
-      ? workspacesMainFields
-      : undefined;
-
-  const includePaths =
-    isEnvDevelopment && workspacesConfig.development
-      ? [paths.appSrc, ...workspacesConfig.paths]
-      : isEnvProduction && workspacesConfig.production
-      ? [paths.appSrc, ...workspacesConfig.paths]
-      : paths.appSrc;
-
-  const htmlPlugins = getHtmlPlugins(isEnvProduction);
-  const entries = getEntries(isEnvDevelopment, shouldUseReactRefresh);
-
   // We will provide `paths.publicUrlOrPath` to our app
   // as %PUBLIC_URL% in `index.html` and `process.env.PUBLIC_URL` in JavaScript.
   // Omit trailing slash as %PUBLIC_URL%/xyz looks better than %PUBLIC_URL%xyz.
@@ -249,6 +232,23 @@ module.exports = function (webpackEnv) {
     }
     return loaders;
   };
+
+  const mainFields =
+    isEnvDevelopment && workspacesConfig.development
+      ? workspacesMainFields
+      : isEnvProduction && workspacesConfig.production
+      ? workspacesMainFields
+      : undefined;
+
+  const includePaths =
+    isEnvDevelopment && workspacesConfig.development
+      ? [paths.appSrc, ...workspacesConfig.paths]
+      : isEnvProduction && workspacesConfig.production
+      ? [paths.appSrc, ...workspacesConfig.paths]
+      : paths.appSrc;
+
+  const htmlPlugins = getHtmlPlugins(isEnvProduction);
+  const entries = getEntries(isEnvDevelopment, shouldUseReactRefresh);
 
   return {
     mode: isEnvProduction ? 'production' : isEnvDevelopment && 'development',
