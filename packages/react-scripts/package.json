@@ -1,6 +1,6 @@
 {
   "name": "@foreachbe/react-scripts",
-  "version": "6.2.0",
+  "version": "7.0.0",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
@@ -33,9 +33,9 @@
   "types": "./lib/react-app.d.ts",
   "dependencies": {
     "@babel/core": "7.10.5",
-    "@foreachbe/eslint-config-react-app": "^6.0.1",
-    "@foreachbe/babel-preset-react-app": "^5.1.0",
-    "@foreachbe/stylelint-config-react-app": "^4.1.0",
+    "@foreachbe/eslint-config-react-app": "^7.0.0",
+    "@foreachbe/babel-preset-react-app": "^6.0.0",
+    "@foreachbe/stylelint-config-react-app": "^5.0.0",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.1",
     "@svgr/webpack": "5.4.0",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
