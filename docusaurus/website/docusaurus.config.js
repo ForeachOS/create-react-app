@@ -9,8 +9,8 @@
 const siteConfig = {
   title: 'Create React App',
   tagline: 'Set up a modern web app by running one command.',
-  url: 'https://foreachos.github.io',
-  baseUrl: '/create-react-app/',
+  url: 'https://foreachos-cra.netlify.app',
+  baseUrl: '/',
   projectName: 'create-react-app',
   organizationName: 'foreachos',
   favicon: 'img/favicon/favicon.ico',
