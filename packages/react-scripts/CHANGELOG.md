@@ -1,5 +1,11 @@
 # @foreachbe/react-scripts
 
+## 7.0.1
+
+### Patch Changes
+
+- eb3b7ee4: Documentatie aangepast voor FAST refresh integratie
+
 ## 7.0.0
 
 ### Major Changes
