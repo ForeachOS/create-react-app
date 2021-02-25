@@ -9,7 +9,7 @@
 const siteConfig = {
   title: 'Create React App',
   tagline: 'Set up a modern web app by running one command.',
-  url: 'https://foreachos-cra.netlify.app',
+  url: 'https://foreach-cra.netlify.app',
   baseUrl: '/',
   projectName: 'create-react-app',
   organizationName: 'foreachos',
