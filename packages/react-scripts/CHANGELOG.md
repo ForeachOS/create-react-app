@@ -1,5 +1,11 @@
 # @foreachbe/react-scripts
 
+## 7.0.2
+
+### Patch Changes
+
+- 7be5eaaf: Revert fast refresh warning
+
 ## 7.0.1
 
 ### Patch Changes
