@@ -7,7 +7,7 @@ Create React App comes with an embedded `index.html` and `index.js` which is sho
 
 ## Creating files
 
-Please, create your `.html` and `.js` (Or TypeScript file). The embedded files come inside `public` and `src` folder.
+Please, create your `.html` and (`.js` | `.ts`) files. The embedded files come inside `public` and `src` folder.
 
 ## Add the new app in package.json
 
